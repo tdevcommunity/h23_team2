@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import { Space_Grotesk } from 'next/font/google'
+import { Urbanist } from 'next/font/google'
 import './globals.css'
 
-const spaceGrotest = Space_Grotesk({ subsets: ['latin'] })
+const urbanist = Urbanist({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'MentorHub',
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={spaceGrotest.className}>{children}</body>
+      <body className={urbanist.className}>{children}</body>
     </html>
   )
 }
