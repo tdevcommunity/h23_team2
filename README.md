@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Screens
 
 <img src="public/1.png" />
-<img src="public/1.png" />
+<img src="public/2.png" />
 
 
 
